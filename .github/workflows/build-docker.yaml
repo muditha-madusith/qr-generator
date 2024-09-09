@@ -5,8 +5,8 @@ on:
     branches:
       - master
     paths:
-      - 'api'
-      - 'front-end-nextjs'
+      - 'api/'
+      - 'front-end-nextjs/'
 
 jobs:
   publish_images:
