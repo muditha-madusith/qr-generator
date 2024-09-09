@@ -4,8 +4,7 @@ on:
     branches:
       - master
     paths:
-      - 'api/Dockerfile'
-      - 'frontend/Dockerfile'
+      - './'
 
 jobs:
   publish_images:
