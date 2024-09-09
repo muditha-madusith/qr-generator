@@ -33,5 +33,10 @@ The app also leverages Docker for containerization and GitHub Actions for contin
 
 The goal is to get hands-on with DevOps practices like Containerization, CICD and monitoring.
 
+**Secrets for GitHub Actions:**
+- Set up the following GitHub secrets:
+- DOCKER_USERNAME: Your Docker Hub username.
+- DOCKER_PASSWORD: Your Docker Hub password.
+
 
 ![image](https://github.com/user-attachments/assets/36703fe7-9ead-4107-ac53-61f30d3dca49)
