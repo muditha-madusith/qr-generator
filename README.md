@@ -1,11 +1,18 @@
-# qr-code-generator
+# QR Code Generator Application
 
-QR generator app using nodejs api and nextjs frontend, Aws s3 bucket using for store the qr codes.
-Setup ci/cd pipeline using github actions for when get commit for the main branch auto run the workflow, build docker image and push it to dockerhub.
+This is a full-stack application that generates QR codes from user-submitted URLs. The application is divided into:
 
+**Front-End:** A Next.js-based web application where users can submit URLs.                                           
+**Back-End API:** A Node.js API that receives URLs, generates QR codes, and stores them in an AWS S3 bucket.
 
-**Application Front-End** - A web application where users can submit URLs.                                              
-**API** - API that receives URLs and generates QR codes. The API stores the QR codes in cloud storage(AWS S3 Bucket).
+The app also leverages Docker for containerization and GitHub Actions for continuous integration/continuous deployment (CI/CD). Every commit to the main branch automatically triggers a workflow that builds and pushes Docker images to Docker Hub.
+
+**Technologies Used**
+- Front-End: Next.js
+- Back-End: Node.js API
+- Cloud Storage: AWS S3 (for storing generated QR codes)
+- CI/CD: GitHub Actions
+- Containerization: Docker
 
 
 **Running locally API The API code exists in the api directory. You can run the API server locally:**
@@ -25,4 +32,6 @@ Setup ci/cd pipeline using github actions for when get commit for the main branc
 ## Goal
 
 The goal is to get hands-on with DevOps practices like Containerization, CICD and monitoring.
+
+
 ![image](https://github.com/user-attachments/assets/36703fe7-9ead-4107-ac53-61f30d3dca49)
