@@ -5,7 +5,7 @@ This is a full-stack application that generates QR codes from user-submitted URL
 **Front-End:** A Next.js-based web application where users can submit URLs.                                           
 **Back-End API:** A Node.js API that receives URLs, generates QR codes, and stores them in an AWS S3 bucket.
 
-The app also leverages Docker for containerization and GitHub Actions for continuous integration/continuous deployment (CI/CD). Every commit to the main branch automatically triggers a workflow that builds and pushes Docker images to Docker Hub.
+The app also leverages Docker for containerization and GitHub Actions for continuous integration/continuous deployment (CI/CD). Every commit to the master branch automatically triggers a workflow that builds and pushes Docker images to Docker Hub.
 
 **Technologies Used**
 - Front-End: Next.js
