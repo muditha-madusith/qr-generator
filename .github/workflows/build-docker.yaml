@@ -1,12 +1,11 @@
 name: Build and Publish image to Docker Hub
-
 on:
   push:
     branches:
       - master
     paths:
       - 'api/Dockerfile'
-      - 'front-end-nextjs/Dockerfile'
+      - 'frontend/Dockerfile'
 
 jobs:
   publish_images:
@@ -17,7 +16,7 @@ jobs:
       - name: build image
         run: |
           docker build ./api/ -t mud2003/qr-api:latest
-          docker build ./front-end-nextjs/ -t mud2003/qr-frontend:latest
+          docker build ./frontend/ -t mud2003/qr-frontend:latest
       - name: push image to docker hub
         run: |
           docker login -u mud2003 -p ${{ secrets.DOCKER_HUB_TOKEN }}
