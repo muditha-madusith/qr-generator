@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - master
-    paths:
-      - '.'
+
 
 jobs:
   publish_images:
