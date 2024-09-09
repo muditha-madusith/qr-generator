@@ -22,4 +22,7 @@ Setup ci/cd pipeline using github actions for when get commit for the main branc
 - Run the NextJS Server: npm run dev 
 - Your Front-end Server should be running on http://localhost:3000
 
+## Goal
+
+The goal is to get hands-on with DevOps practices like Containerization, CICD and monitoring.
 ![image](https://github.com/user-attachments/assets/36703fe7-9ead-4107-ac53-61f30d3dca49)
