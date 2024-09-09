@@ -38,5 +38,3 @@ The goal is to get hands-on with DevOps practices like Containerization, CICD an
 - DOCKER_USERNAME: Your Docker Hub username.
 - DOCKER_PASSWORD: Your Docker Hub password.
 
-
-![image](https://github.com/user-attachments/assets/36703fe7-9ead-4107-ac53-61f30d3dca49)
